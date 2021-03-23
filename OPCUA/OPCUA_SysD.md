@@ -16,7 +16,7 @@ Once the services are available for each node in the service registry, any autho
 This System provides one service the Signal Status. The applications.properties file is configured with the OPC UA server address and the root node id. Prior to registering the service, the OPC UA System connects to the OPC UA server and scans all the nodes present under the root node and then registers all the nodes as individual service instances with same service definition but different service URI and metadata. Hence, in the case of this demonstrator there are 19 service instances registered in the service registry. 
 Once the services are available, the consumer can orchestrate the service and gets the endpoints for all 19 service instances. Now the consumer can get the status of each signal individually by connecting to each endpoint. A sequence diagram of the service registration and consumption process is depicted in figure 1. 
 
-### Sequence Diagram of OPC UA System Interaction in the Arrowhead Local Cloud
+### Figure 1: Sequence Diagram of OPC UA System Interaction in the Arrowhead Local Cloud
 ![](Images/OPCUA%20Flow.jpg)
 
 ## Services
