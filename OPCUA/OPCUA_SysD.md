@@ -53,4 +53,4 @@ If it is started in secure mode, it verifies whether the application system poss
 
 The X.509 standard can also be used [between](https://github.com/eclipse/milo/blob/master/opc-ua-stack/stack-core/src/main/java/org/eclipse/milo/opcua/stack/core/util/CertificateUtil.java) the Milo client and OPC UA server to enforce cybersecurity on that side for the system.
 
-<a name="sqlfootnote-1">[1]</a>:The OPC UA consumes services from the ServiceRegistry system.
+<a name="footnote-1">[1]</a>:The OPC UA consumes services from the ServiceRegistry system.
