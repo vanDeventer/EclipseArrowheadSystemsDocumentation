@@ -17,7 +17,7 @@ This System provides one service the Signal Status. The applications.properties 
 Once the services are available, the consumer can orchestrate the service and gets the endpoints for all 19 service instances. Now the consumer can get the status of each signal individually by connecting to each endpoint. A sequence diagram of the service registration and consumption process is depicted in figure 1. 
 
 ### Sequence Diagram of OPC UA System Interaction in the Arrowhead Local Cloud
-![] (Images/OPCUA Flow.jpg)
+![](Images/OPCUA%20Flow.jpg)
 
 ## Services
 ### Consumed Services
