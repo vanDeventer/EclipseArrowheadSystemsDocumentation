@@ -3,7 +3,7 @@
 ## Abstract
 This document describes an [Arrowhead framework compliant system](https://arrowhead.eu/eclipse-arrowhead) that integrates an OPC UA client. 
 The systems scans an OPC UA server's nodes and offers these services as Arrowhead framework compliant services with fine grained authorization.
-The OPC UA systems registers these services with the ServiceRegistry system[^The OPC UA consumes services from the ServiceRegistry system.]. 
+The OPC UA systems registers these services with the ServiceRegistry system<sup>[[1]](#footnote-1)</sup>. 
 The system can additionally consume services from a DataManager system to log signal states.
 It does so by requesting the URL of the DataManager from the Orchestrator system.
 This core system takes responsibility for managing the offered services of all systems.
@@ -52,3 +52,5 @@ If it is started in secure mode, it verifies whether the application system poss
 - The Application System then automatically has the right to register its Services in the Registry.
 
 The X.509 standard can also be used [between](https://github.com/eclipse/milo/blob/master/opc-ua-stack/stack-core/src/main/java/org/eclipse/milo/opcua/stack/core/util/CertificateUtil.java) the Milo client and OPC UA server to enforce cybersecurity on that side for the system.
+
+<a name="sqlfootnote-1">[1]</a>:The OPC UA consumes services from the ServiceRegistry system.
